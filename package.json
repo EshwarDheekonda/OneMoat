@@ -1,0 +1,8 @@
+{
+  "name": "onemoat",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "deploy": "npm run build && cd frontend && npm install gh-pages --save-dev && npm run deploy:gh"
+  }
+}
