@@ -1,6 +1,6 @@
 const ghpages = require('gh-pages');
 
-ghpages.publish('frontend/public', {
+ghpages.publish('frontend/build', {
     branch: 'gh-pages',
     repo: 'https://github.com/EshwarDheekonda/OneMoat.git',
     user: {
