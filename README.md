@@ -2,7 +2,41 @@
 
 ## Deployment
 
-This project is deployed using GitHub Pages.
+This project is deployed using GitHub Pages. The frontend is automatically built and deployed whenever changes are pushed to the `master` branch.
+
+### Deployment Process
+
+1. Push your changes to the `master` branch:
+   ```bash
+   git push origin master
+   ```
+
+2. GitHub Actions will automatically:
+   - Build the frontend
+   - Deploy to GitHub Pages
+   - The site will be available at `https://<your-username>.github.io/OneMoat`
+
+### Local Development
+
+1. Install dependencies:
+   ```bash
+   # Backend
+   pip install -r requirements.txt
+   
+   # Frontend
+   cd frontend
+   npm install
+   ```
+
+2. Run the development servers:
+   ```bash
+   # Backend
+   uvicorn app.main:app --reload
+   
+   # Frontend
+   cd frontend
+   npm run dev
+   ```
 
 OneMoat is an advanced stock market analysis platform that uses AI to analyze company filings and predict their impact on stock prices with high accuracy.
 
