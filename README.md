@@ -1,5 +1,9 @@
 # OneMoat - AI-Powered Stock Market Analysis Platform
 
+## Deployment
+
+This project is deployed using GitHub Pages.
+
 OneMoat is an advanced stock market analysis platform that uses AI to analyze company filings and predict their impact on stock prices with high accuracy.
 
 ## Features
